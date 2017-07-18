@@ -1,4 +1,4 @@
-To install ionic Please Run THis Commands :
+## To install ionic Please Run THis Commands :
 
 Befor This , Download Node.js with this link : 
 https://nodejs.org
@@ -7,19 +7,19 @@ https://nodejs.org
 npm install -g cordova ionic
 ```
 
-clone This Rep :
+## clone This Rep :
 ```bash
 git clone https://github.com/hokafi/kasra-ionic-class.git
 cd kasra-ionic-class
 ```
 
-and run this To See Your App  :
+## and Run This To See Your App  :
 ```bash
 npm install 
 ionic serve
 ```
 
-## To Satart New App :
+## To Start New App :
 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
@@ -35,10 +35,10 @@ $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 
-## To Build and run TO device :
+## To Build and Run To Device :
 ```bash
 ionic cordova build android 
 ionic cordova run android 
 ```
-Substitute ios for android if not on a Mac.
+
 
