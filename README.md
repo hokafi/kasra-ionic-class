@@ -18,7 +18,7 @@ and run this To See Your App  :
 ionic serve
 ```
 
-## With the Ionic CLI:
+## To Satart New App :
 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
@@ -28,11 +28,16 @@ $ ionic start myTabs tabs
 ```
 
 Then, to run it, cd into `myTabs` and run:
-
+## To Add Platforms :
 ```bash
 $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 
+## To Build and run TO device :
+```bash
+ionic cordova build android 
+ionic cordova run android 
+```
 Substitute ios for android if not on a Mac.
 
