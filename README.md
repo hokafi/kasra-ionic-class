@@ -15,6 +15,7 @@ cd kasra-ionic-class
 
 and run this To See Your App  :
 ```bash
+npm install 
 ionic serve
 ```
 
