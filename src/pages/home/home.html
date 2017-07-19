@@ -5,19 +5,22 @@
 </ion-header>
 
 <ion-content padding>
+<ion-refresher (ionRefresh)="doRefresh($event)">
+<ion-refresher-content content = "Refresh ..."></ion-refresher-content>
+</ion-refresher>
   <ion-list >
-    <ion-item *ngFor="let item of contacts" (click) = "goToDetails(item)">
+    <ion-item *ngFor="let item of products" (click) = "goToDetails(item)">
      <ion-grid>
       <ion-row>
         <ion-col col-9 style="direction : rtl" >
           <ion-row>
             <ion-col>
-              {{item.name}}
+              {{item.title}}
             </ion-col>
           </ion-row>
           <ion-row>
             <ion-col>
-              {{item.phoneNumber}}
+              {{item.company}}
             </ion-col>
           </ion-row>
         </ion-col>
@@ -30,4 +33,7 @@
     </ion-item>
 
   </ion-list>
+  <ion-fab bottom right >
+    <button ion-fab (click)="goToAddProduct()"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
 </ion-content>
